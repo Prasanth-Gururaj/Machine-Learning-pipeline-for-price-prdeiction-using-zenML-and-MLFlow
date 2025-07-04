@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# MLflow artifacts
+mlruns/
+
+# ZenML artifacts
+zenml_local_store/
+zenml_artifacts/
+zenml_logs/
+zenml_metadata_store/
+
+# Data and model artifacts
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.csv
+*.tsv
+*.json
+*.db
+*.sqlite
+*.log
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+*.secret
+secrets.yaml
+credentials.json
+
+# Pip requirements logs
+pip-log.txt
